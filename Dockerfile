@@ -8,4 +8,4 @@ echo 'subscribed: false' >> /home/app/.docpad.cson && \
 echo 'subscribeTryAgain: null' >> /home/app/.docpad.cson && \
 echo 'tos: true' >> /home/app/.docpad.cson && \
 echo -n 'identified: true' >> /home/app/.docpad.cson && \
-chown app:app /home/app/.docpad.cson && echo 'cd ~' >> /home/app/.bashrc
+chown app:app /home/app/.docpad.cson
