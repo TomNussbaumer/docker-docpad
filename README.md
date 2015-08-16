@@ -10,6 +10,8 @@ For a qick start, enter an empty directory and type `docpad run`. More infos can
 
 **NOTE:** Due the UID/GID remapping on startup and the local installation of node in user app's home directory, it may take a while until the container is started.
 
+The image size grows fast with this kind of software (nodejs including native build environment). The runtime requirements with a just started docpad are around 75 mb.
+
 ----------------------------------------------------
 
 For generic usage informations of this image please examine [the README file of the base image](https://github.com/sys42/docker-base).
