@@ -1,4 +1,4 @@
-FROM sys42/docker-nodejs:1.0.0
+FROM sys42/docker-nodejs:1.1.0
 MAINTAINER Tom Nussbaumer <thomas.nussbaumer@gmx.net>
 RUN sudo -iu app bash -c ". ~/.nvm/nvm.sh npm install -g npm && npm install -g docpad@6.78" && \
 rm -rf /tmp/npm* && \
